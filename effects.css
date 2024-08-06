@@ -6,7 +6,31 @@
 }
 
 .first:hover {
-    transform: scale(2) translate(50px, 50px) rotate(45deg);
-    width: 200px;
-    background-color: yellow;
+    transform: scale(2) translate(50px, 50px) rotate(45deg) skew(30deg);
+    /* width: 200px;
+    background-color: yellow; */
 }
+
+img {
+    width: 300px;
+}
+
+.card-parent {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid red;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 1.2s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 1px 74px 10px rgba(244,29,29,0.75);
+
+}
+
