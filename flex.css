@@ -1,0 +1,35 @@
+.flex-parent {
+    border: 1px solid red;
+    height: 90vh;
+    display: flex;
+    flex-wrap: nowrap;
+
+    /* the main axis is row */
+    flex-direction: row;
+
+    /* justify content aligh items along the main axis 
+    justify-content: space-between;
+
+    /* 'align item' alighn items along the cross axis */
+    /* align-items: flex-start; */
+}
+
+.flex-child {
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    margin: 10px;
+    font-size: 48px;
+
+
+}
+
+.item-1 {
+order: 1;
+
+}
+
+.item-3 {
+    order: -3
+
+}
