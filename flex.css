@@ -2,16 +2,19 @@
     border: 1px solid red;
     height: 90vh;
     display: flex;
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
 
     /* the main axis is row */
-    flex-direction: row;
+    /* flex-direction: row; */
 
     /* justify content aligh items along the main axis 
     justify-content: space-between;
 
     /* 'align item' alighn items along the cross axis */
     /* align-items: flex-start; */
+
+    justify-content: center;
+    align-items: center;
 }
 
 .flex-child {
@@ -21,15 +24,7 @@
     margin: 10px;
     font-size: 48px;
 
-
-}
-
-.item-1 {
-order: 1;
-
-}
-
-.item-3 {
-    order: -3
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
